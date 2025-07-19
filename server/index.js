@@ -25,6 +25,7 @@ async function connectDB() {
         console.error("Error connecting to MongoDB:", error);
     }
 }
+
 connectDB();
 
 app.get("/", (req, res) => {
